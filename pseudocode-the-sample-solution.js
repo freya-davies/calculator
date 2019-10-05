@@ -2,7 +2,7 @@ Sample solution - https://codepen.io/freeCodeCamp/pen/EPNZYW
 
 // HTML
 
-// create a class with ids of: title, tagline, answer. 
+// create a paragraph for each of the following with ids of: title, tagline, answer. 
 
 // class row has 19 buttons sectioned into 5 rows to look like a basic calculator. 
 // rows go like this with the first one being the top:
@@ -17,7 +17,7 @@ Sample solution - https://codepen.io/freeCodeCamp/pen/EPNZYW
 
 // CSS
 
-// calculator should be 250px wide, 335px heigh with no margins.
+// calculator should be 250px wide, 335px high with no margins.
 
 // curve the edges of the calculator
 // and give it a grey shadow using box-shadow
@@ -26,7 +26,7 @@ Sample solution - https://codepen.io/freeCodeCamp/pen/EPNZYW
 
 // the tagline should be in caps and font .7em and open
 
-// the number input should have a height of 40px, width of 80%
+// the #answer should have a height of 40px, width of 80%
 // Should have 1px solid border, 2em font. 
 // needs padding around the font (R: 10px, B: 20px)
 // needs inset shaddow around strings 
@@ -63,3 +63,34 @@ Sample solution - https://codepen.io/freeCodeCamp/pen/EPNZYW
 // * push the symbol (+, - etc) to the equation
 // * make the symbols equal what they actually do (eg x is *)
 // when = is clicked return "=" + equationTotal on display
+
+
+// ---------NEW JS PSEUDOCODE ------------
+
+// make number (button) a function 
+// it should do nothing if a dot is put in
+// it should do nothing if numString has nothing in it and a 0 is entered
+// ELSE if there is a previous result then reset the numString to empty and isPreviousResult to false. 
+// add button to numString and make the display value = numString. 
+
+
+// the clear function should reset the numString to empty ans display.value to 0
+
+// the all clear function should do the same as the clear but also empty the numArray
+
+// the storeNumber function takes in the button clicked and does nothing if its an empty string
+// it should SOMETHING --------- and then push the button to the array
+// or it should push the numString and button to the numArray and clear the numString
+
+// function calculate should push the numString to the numArray
+// when an array contains a symbol then take the symbol and do its function (+ being adding, etc) to the current number and the next number in the array 
+
+// if the current number is less than 0 take the current number and use Math.abs to change it into a positive version of itself and minus it from the whatever comes next in the equation
+
+// display.value should be the current number
+// numString = JSON.stringify(currentNumber) ----- this will change it into a string so the webserver can receive it.
+    //DONT REALLY KNOW WHY THESE ARE AT THE BOTTOM. 
+// numString = JSON.stringify(currentNumber)
+// isPreviousResult = true
+// numArray = []
+

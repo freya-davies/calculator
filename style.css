@@ -1,0 +1,104 @@
+/* Fonts and colours used 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Vibes', cursive;
+
+green
+indigo
+(darker indigo) rgb(50, 0, 85)
+(even darker indigo) rgb(35, 0, 59)
+lightGray
+silver
+darkGray
+gray
+*/
+
+
+/* wanna add in a darker grey inset line into .calculator  */
+body {
+    background-color: green;
+    font-size: 16px;
+}
+
+.solarPanel {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#title {
+    font-family: 'Vibes', cursive;
+    color: indigo;
+    text-align: center;    
+    font-size: 0.8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#tagline {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: rgb(50, 0, 85);
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.calculator {
+    height: 350px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: darkGray;
+    border-radius: 15%;
+    box-shadow: 5px 10px;
+    color: rgb(109, 108, 108);
+}
+
+#input {
+    font-family: 'Montserrat', sans-serif;
+    color: lightGray;
+    background-color: indigo;
+    font-size: 2rem;
+    width: 80%;
+    height: 40px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: inset 4px 2px 30px rgb(50, 0, 85);
+    box-shadow: inset 1px 2px 20px rgb(35, 0, 59);;
+}
+
+.calculatorButtons button{
+    font-family: 'Montserrat', sans-serif;
+    color: indigo;
+    background-color: lightGray;
+    font-size: 1.5rem;
+    width: 45px;
+    height: 35px;
+    border: 1px solid gray;
+    box-shadow: inset 1px 3px 10px gray, inset 2px 5px 15px darkgray, inset 0px -5px 10px -2px gray;
+    /* box-shadow: inset 4px 2px 30px silver;
+    box-shadow: inset 1px 2px 20px darkGray; */
+    border-radius: 20%;
+    margin-left: 50%;
+}
+
+#bigButton {
+    width: 45px;
+    height: 70px;
+}
+
+#opositeColouredButton {
+    color: lightgray;
+    background-color: indigo;
+    box-shadow: inset 1px 3px 10px rgb(91, 29, 136), inset 2px 5px 15px rgb(105, 64, 134), inset 0px -5px 10px -2px darkGray;
+}
